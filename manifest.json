@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Hotstar Ad Muter",
+  "description": "An extension to mute and unmute Disney+Hotstar tab if the site is playing Ads instead of entertainment videos.",
+  "version": "1.0",
+  "permissions": ["activeTab", "tabCapture", "tabs", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon16.png",
+      "128": "icons/icon16.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon16.png",
+    "128": "icons/icon16.png"
+  }
+}
