@@ -56,8 +56,6 @@ For any questions or inquiries, you can reach out to:
 All the best 🤝
 
 ## Acknowledgements
-
-- Thanks to the open-source community for their invaluable contributions.
 - Special thanks to [Disney+ Hotstar](https://www.hotstar.com) for providing a great platform for streaming content.
 
 ## License
